@@ -1,86 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> ACME Company </title>
-	<link rel = "stylesheet" type = "text/css" href = "l3.css">
+  <title>My super site!</title>
 </head>
 <body>
-	<script>
-		function myMap(){
-			var mapOption={
-				center: new google.maps.latlng(51.5,-0.12),
-				zoom:10,
-				mapTypeId: google.maps.MapTypeID.HYBRID}
-			
-		var myCenter= new google.maps.latlng(51.5,-0.12);
-		var map= new google.maps.Map(document.getElementById("map"),mapOption);
-		var marker=new google.maps.Marker({position:myCenter});
-		marker.setMap(map);}
-	</script>
-	<script>
-		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB0O1lxqdJp0BITovCGSjmyJuIMyhgiFtI &callback= myMap"> </script>
-		
-		
-	<!--header-->
-	<div>
-		header
-		<img src="data:image/jpeg;base64,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" height="500" width="500">
-	</div>
-	<!--navigation-->
-	<div class="menu">
-		<ul>
-		<li> <a href="Index.html"> Home </a> </li>
-		<li> <a href="About.html"> About </a> </li>
-		<li> <a href="Contact.html"> Contact </a> </li>
-		</ul>
-	</div>
-	<!-- main -->
-	<div class="main">
-		<!--block 1 -->
-		<div id="map" style= "width: 400px; height: 400px">
-		
-		
-		</div>
-
-		<!--block 2 -->
-		<div class="block2">
-		block 2
-		<p>
-			Nam fringilla arcu sit amet arcu lobortis, nec dignissim sapien vulputate. Praesent eu sollicitudin lorem. Mauris pretium erat lectus, ut imperdiet erat lobortis in. Integer tempor eleifend ultrices. Sed dignissim ac dui id accumsan. Nam pharetra faucibus ultrices. Morbi malesuada lacinia viverra. Phasellus vehicula erat in pulvinar vehicula. Nullam condimentum lacus quis lorem blandit placerat. Aenean laoreet libero eu justo rutrum tristique. Cras mi sapien, suscipit vitae ex eu, tincidunt ultricies sem. Duis dignissim condimentum imperdiet. Pellentesque pretium velit elit, auctor sollicitudin nunc lobortis a.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean tincidunt tincidunt magna id venenatis. Donec imperdiet varius orci et varius. Sed tempor lobortis eros, eget luctus tellus viverra ac. Etiam auctor ac lectus id sagittis. Vivamus turpis eros, consectetur non odio eget, laoreet dapibus dui. Suspendisse eleifend ex et diam gravida, a pulvinar libero ultrices. In cursus convallis tristique. Vestibulum convallis urna dolor, eget lacinia sem luctus at. Aenean suscipit augue quis ultricies ultricies. Vestibulum tempor mauris non ligula luctus, eget volutpat sapien sodales. Etiam neque ex, tempor in nisl quis, tincidunt placerat ante. Nullam pellentesque elit quam, in faucibus ligula laoreet ac. Integer cursus sit amet odio quis posuere.
-		</p>
-		</div>
-	</div>
-
-	<!--footer-->
-
-	<div class="infos">
-		<div class="social">
-			<ul>
-			<li> Facebook </li>
-			<li> Twitter </li>
-			<li> Instagram </li>
-			</ul>
-		</div>
-
-		<div class="lieux">
-			<ul>
-			<li> ACME </li>
-			<li> US </li>
-			<li> New York </li>
-			</ul>
-
-		</div>
-
-		<div class="mail">
-			<ul>
-			<li> 5555 </li>
-			<li> contact@gmail.com </li>
-			</ul>
-		</div>
-
-
-	</div>
+  <h1>My super site</h1>
+  
+  <div id="map" style="width:400px;height:400px;background:yellow"></div>
+  
+  <script>
+  function myMap() {
+    var mapOptions = {
+      center: new google.maps.LatLng(51.5, -0.12),
+      zoom: 10,
+      mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+    var myCenter = new google.maps.LatLng(51.508742,-0.120850);
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    var marker = new google.maps.Marker({position:myCenter});
+    marker.setMap(map);
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCm-Mkwk5L-lmg0_oG0nu-2PfM7T-pYQJM &callback=myMap"></script>
 </body>
 </html>

@@ -5,6 +5,20 @@
 	<link rel = "stylesheet" type = "text/css" href = "l3.css">
 </head>
 <body>
+	<script>
+		function myMas(){
+			var mapOption={
+				center: new google.maps.latlng(51.5,-0.12),
+				zoom:10,
+				mapTypeId: google.maps.MapTypeID.HYBRID}
+			}
+		var myCenter= new google.maps.latlng(51.5,-0.12);
+		var map= new google.maps.Map(document.getElementById("map"),mapOption);
+		var marker=new google.maps.Marker({position:myCenter});
+		marker.setMap(map);
+	</script>
+		
+		
 	<!--header-->
 	<div>
 		header

@@ -15,10 +15,12 @@
       zoom: 10,
       mapTypeId: google.maps.MapTypeId.HYBRID
     }
-    var myCenter = new google.maps.LatLng(51.508742,-0.120850);
+    var myCenter = new google.maps.LatLng(51.508742,-0.120850);    
+    var myCenter2 = new google.maps.LatLng(48.86,2.28);
     var map = new google.maps.Map(document.getElementById("map"), mapOptions);
     var marker = new google.maps.Marker({position:myCenter});
     marker.setMap(map);
+    var marker = new google.maps.Marker({position:myCenter2});
   }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCm-Mkwk5L-lmg0_oG0nu-2PfM7T-pYQJM &callback=myMap"></script>

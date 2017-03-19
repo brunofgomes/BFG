@@ -1,0 +1,157 @@
+body {
+    background-color: #EBE8E4;
+    color: #222;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.image{
+    margin: 0;
+    padding: 0;
+    height: 227px;
+    background-color: #222222;
+}
+
+    nav {
+        background-color: #fff;
+        border: 1px solid #dedede;
+        color: #888;
+        display: block;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        list-style-type: none;
+
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+
+
+    nav > ul > li > a {
+        color: #aaa;
+        display: block;
+        line-height: 56px;
+        padding: 0 24px;
+        text-decoration: none;
+    }
+
+    nav > ul > li:hover {
+        background-color: rgb( 40, 44, 47 );
+    }
+
+    nav > ul > li:hover > a {
+        color: rgb( 255, 255, 255 );
+}
+
+
+  .center {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 20px;
+      line-height: 20px;
+      padding: 0 3px 0 6px;
+      margin-bottom: 15px;
+      color: #417394;
+  }
+
+  .question {
+      border-top: 1px solid #454545;
+      border-bottom: 1px solid #F4F3F3;
+      -webkit-box-shadow: 0 1px 15px rgba(0, 0, 0, .4) inset;
+      -moz-box-shadow: 0 1px 15px rgba(0, 0, 0, .4) inset;
+      box-shadow: 0 1px 15px rgba(0, 0, 0, .4) inset;
+      background-color: #999;
+      color: white;
+      font-size: 16px;
+      padding: 3px 30px;
+  }
+
+  .formulaire{
+      margin-top: -2px;
+      width: 100%;
+
+  }
+  form{
+      padding:10px;
+      width:280px;
+
+  }
+    fieldset {
+        border:none;
+    }
+
+
+  .renvoi{
+      font-size: 48px;
+      text-shadow: -1px -1px #9df, 1px 1px #49d, -3px 0 4px #000;
+      font-family:"Segoe print", Arial, Helvetica, sans-serif;
+      color:#6bf;
+      padding:24px 32px 32px 32px;
+      font-weight:lighter;
+      text-align:center;
+      line-height:150px;
+
+
+}
+
+
+#forum{
+    text-align: left;
+    background-color: white;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    min-height: 100px;
+    width: 95%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-left: 20px;
+}
+
+  .pag{
+    text-align: center;
+  }
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+
+
+
+footer {
+    border-top: 5px solid #AFB0B1;
+    background-color: #494949;  tr='#4f4f4f', endColorstr='#404040', GradientType=0);
+    padding: 8px 0px 12px;
+    text-align: center;
+    color: #fff;
+}
+

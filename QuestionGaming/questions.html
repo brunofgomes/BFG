@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> Forum </title>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="forum.js"></script>
+</head>
+<body onload="disp_pages(1)">
+
+    <div class="image">
+        <img src=j2.jpg style="width:33%;height:228px;">
+        <img src=j1.jpg style="width:33%;height:228px;">
+        <img src=jeux.jpg style="width:33%;height:228px;">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Question</a></li>
+            <li><a href="questions.html">Forum</a></li>
+        </ul>
+    </nav>
+
+    <div class="question">
+    <h3>Discussions</h3>
+    </div>
+
+    <div id="liste_questions">
+                    <span id="blog">
+                    <div id="forum"> </div>
+                    </span>
+    </div>
+
+    <div class="pag">
+        <div class="pagination">
+            <a id="page1" href="javascript:disp_pages(1);">1</a>
+            <a id="page2" href="javascript:disp_pages(2);">2</a>
+            <a id="page3" href="javascript:disp_pages(3);">3</a>
+            <a id="page4" href="javascript:disp_pages(4);">4</a>
+            <a id="page5" href="javascript:disp_pages(5);">5</a>
+            <a id="page6" href="javascript:disp_pages(6);">6</a>
+        </div>
+    </div>
+
+
+</body>
+</html>
